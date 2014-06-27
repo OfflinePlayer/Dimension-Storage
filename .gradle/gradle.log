@@ -5,16 +5,11 @@
  R4wk, ZeuX, IngisKahn      
  MCP Data version : unknown
 ****************************
-:help
-
-Welcome to Gradle 1.12.
-
-To run a build, run gradlew <task> ...
-
-To see a list of available tasks, run gradlew tasks
-
-To see a list of command-line options, run gradlew --help
+:ideaModule
+:ideaProject
+:ideaWorkspace
+:idea
 
 BUILD SUCCESSFUL
 
-Total time: 5.065 secs
+Total time: 28.845 secs
