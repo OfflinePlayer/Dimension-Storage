@@ -9,7 +9,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import scala.tools.nsc.doc.model.Public;
 
-@Mod(modid = reference.Mod_ID,name = reference.Mod_name,version = "1.7.2-1.0")
+@Mod(modid = reference.Mod_ID,name = reference.Mod_name,version = reference.Mod_version)
 public class DimensionStorage {
     @Mod.Instance
     public static DimensionStorage instance;
@@ -21,6 +21,8 @@ public class DimensionStorage {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
+
+
 
     }
     @Mod.EventHandler
