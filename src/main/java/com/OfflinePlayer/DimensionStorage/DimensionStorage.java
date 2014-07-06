@@ -1,6 +1,7 @@
 package com.OfflinePlayer.DimensionStorage;
 
 import com.OfflinePlayer.DimensionStorage.Handler.ConfigurationHandler;
+import com.OfflinePlayer.DimensionStorage.init.ModItems;
 import com.OfflinePlayer.DimensionStorage.reference.reference;
 import com.OfflinePlayer.DimensionStorage.Proxy.IProxy;
 import com.OfflinePlayer.DimensionStorage.utility.LogHelper;
@@ -16,7 +17,7 @@ public class DimensionStorage {
     @Mod.Instance
     public static DimensionStorage instance;
 
-    @SidedProxy(clientSide = "com.OfflinePlayer.DimensionStorage.Proxy.ClientProxy",serverSide = "com.OfflinePlayer.DimensionStorage.Proxy.ServerProxy")
+    @SidedProxy(clientSide = reference.Client_Proxy_Class,serverSide = reference.Server_Proxy_Class)
     public static IProxy proxy;
 
 
@@ -27,6 +28,8 @@ public class DimensionStorage {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.debug("Pre Initialization Complete!");
+
+        ModItems.init();
 
     }
     @Mod.EventHandler
