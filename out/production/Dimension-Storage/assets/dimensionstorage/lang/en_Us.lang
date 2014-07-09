@@ -1,1 +1,5 @@
-item.dimensionstorage:WirelessMatterCombiner.name = Wireless Matter Combiner
+//items
+item.dimensionstorage:WirelessMatterCombiner.name =Wireless Matter Combiner
+
+//blocks
+tile.dimensionstorage:BlackHoleConstructer.name =Black-Hole-Constructer

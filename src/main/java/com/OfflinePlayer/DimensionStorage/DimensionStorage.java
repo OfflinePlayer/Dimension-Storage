@@ -1,6 +1,7 @@
 package com.OfflinePlayer.DimensionStorage;
 
 import com.OfflinePlayer.DimensionStorage.Handler.ConfigurationHandler;
+import com.OfflinePlayer.DimensionStorage.init.ModBlocks;
 import com.OfflinePlayer.DimensionStorage.init.ModItems;
 import com.OfflinePlayer.DimensionStorage.reference.reference;
 import com.OfflinePlayer.DimensionStorage.Proxy.IProxy;
@@ -30,6 +31,8 @@ public class DimensionStorage {
         LogHelper.debug("Pre Initialization Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
 
     }
     @Mod.EventHandler
