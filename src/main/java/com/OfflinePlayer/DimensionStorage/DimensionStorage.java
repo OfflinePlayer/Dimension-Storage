@@ -35,6 +35,7 @@ public class DimensionStorage {
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event){
         LogHelper.warn("Initialization Complete!");
+
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
