@@ -1,5 +1,9 @@
 //items
-item.dimensionstorage:WirelessMatterCombiner.name =Wireless Matter Combiner
+item.dimensionstorage:WirelessMatterCombiner.name=Wireless Matter Combiner
+item.dimensionstorage:MeteoriteIngot.name=Meteorite Ingot
 
 //blocks
-tile.dimensionstorage:BlackHoleConstructer.name =Black-Hole-Constructer
+tile.dimensionstorage:BlackHoleConstructer.name=Black-Hole-Constructer
+tile.dimensionstorage:B.H.Stabelizer.name=B.H.Stabelizer
+tile.dimensionstorage:MeteoriteOre.name=Meteorite Ore
+

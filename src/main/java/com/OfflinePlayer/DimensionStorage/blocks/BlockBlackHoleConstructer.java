@@ -10,6 +10,6 @@ public class BlockBlackHoleConstructer extends BlockDS
         super();
         this.setBlockName("BlackHoleConstructer");
         this.setCreativeTab(CreativeTabs.tabMisc);
-
     }
 }
+
